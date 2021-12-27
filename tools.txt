@@ -1,0 +1,11 @@
+== Herramientas para el desarrollo de la app ==
+// Backend //
+NextJS
+// FrontEnd //
+React
+// interfas //
+ChakraUI
+// animaciones //
+Framer motion
+// iconos //
+feather icons
