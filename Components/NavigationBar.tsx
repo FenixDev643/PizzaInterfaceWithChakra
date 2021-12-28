@@ -1,11 +1,8 @@
 import React from 'react'
 import { Button, Flex } from '@chakra-ui/react'
+import { HomeIcon, PizzaIcon, InformationIcon } from './Icons';
 
 export default function NavigationBar() {
-    const HomeIcon = () => {return <ion-icon style={{color: '#fff'}} size="large" name="home"></ion-icon>};
-    const PizzaIcon = () => {return <ion-icon style={{color: '#fff'}} size="large" name="pizza"></ion-icon>};
-    const InformationIcon = () => {return <ion-icon style={{color: '#fff'}} size="large" name="information-circle"></ion-icon>};
-
         const Redirect = (url : string) => {
                 window.open(url, '_self');
         }
